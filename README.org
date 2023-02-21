@@ -1,0 +1,25 @@
+
+#+TITLE: go-ratp
+
+I made that project mostly to improve my Go knowledge. Don't expect a lot of thing from it.
+
+* Purpose
+
+Display informations (trains arrival and message display on the station) get from the RATP API.
+
+Input:
+#+BEGIN_SRC bash
+go-ratp "Combs La Ville"
+#+END_SRC
+
+Output:
+#+BEGIN_SRC bash
+Gare De Combs La Ville:
+        01:44:00 (106 min)
+        02:03:00 (125 min)
+        02:44:00 (166 min)
+#+END_SRC
+
+* The API
+
+API provides by [[https://prim.iledefrance-mobilites.fr/fr]].
